@@ -8,7 +8,7 @@ btn.addEventListener('click',()=>{
     fetch(`${url}${inpWord}`)
         .then((response)=>response.json())
         .then((data)=>{
-            // console.log(data);
+            console.log(data);
             result.innerHTML=`
             <div class="word">
                 <h3>
@@ -30,7 +30,10 @@ btn.addEventListener('click',()=>{
             </p>`;
             sound.setAttribute("src",`${data[0].phonetics[0].audio}`);
             // console.log(sound);
-        });
+        })
+        .catch(()=>{
+            result.innerHTML=`<h4 class='error'>Couldn't Find The Word</h4>`;
+        })
 })
 
 function playSound(){
