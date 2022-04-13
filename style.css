@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #ae9cff;
+    background-color: #659dbd;
 }
 .container{
     background-color: #ffffff;
@@ -32,13 +32,13 @@ body{
     width: 70%;
     border: none;
     outline: none;
-    border-bottom: 3px solid #ae9cff;
+    border-bottom: 3px solid #659dbd;
     font-size: 16px;
 }
 .search-box button{
     padding: 15px 0;
     width: 25%;
-    background-color: #ae9cff;
+    background-color: #659dbd;
     border: none;
     outline: none;
     color: #ffffff;
@@ -59,7 +59,7 @@ body{
 }
 .result button{
     background-color: transparent;
-    color: #ae9cff;
+    color: #659dbd;
     border: none;
     outline: none;
     font-size: 18px;
@@ -77,7 +77,7 @@ body{
 .word-example{
     color: #575a7b;
     font-style: italic;
-    border-left: 5px solid #ae9cff;
+    border-left: 5px solid #659dbd;
     padding-left: 20px;
     margin-top: 30px;
 }

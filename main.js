@@ -8,7 +8,7 @@ btn.addEventListener('click',()=>{
     fetch(`${url}${inpWord}`)
         .then((response)=>response.json())
         .then((data)=>{
-            console.log(data);
+            // console.log(data);
             result.innerHTML=`
             <div class="word">
                 <h3>
